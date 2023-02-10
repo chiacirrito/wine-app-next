@@ -20,9 +20,9 @@ const FoodList = (food) => {
                 height={200}
                 priority={true}
               />
-              <h4>
+              <h5>
                 {food.cheese} + {food.fruit} + {food.nut}
-              </h4>
+              </h5>
             </li>
           ))}
         </ul>

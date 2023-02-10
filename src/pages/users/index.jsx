@@ -38,7 +38,7 @@ export default Users;
 
 /* LATO SERVER */
 export async function getStaticProps() {
-  const res = await fetch("https://dummyjson.com/users?limit=16");
+  const res = await fetch("https://dummyjson.com/users?limit=12");
   const data = await res.json();
 
   return {

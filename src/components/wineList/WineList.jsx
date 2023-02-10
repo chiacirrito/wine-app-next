@@ -20,8 +20,8 @@ const WineList = ({ wine }) => {
                 height={400}
                 priority={true}
               />
-              <h4>{wine.title}</h4>
-              <h5>{wine.description}</h5>
+              <h5>{wine.title}</h5>
+              <h6>{wine.description}</h6>
             </li>
           ))}
         </ul>

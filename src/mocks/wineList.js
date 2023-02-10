@@ -16,14 +16,6 @@ export const wineList = [
     description: "Brunello di Montalcino Riserva 2016, Toscana",
   },
   {
-    id: 3,
-    images:
-      "https://img.freepik.com/free-psd/wine-bottle-mockup_1318-2104.jpg?w=740&t=st=1675527895~exp=1675528495~hmac=97ddd61f0cc80241a5442f00c5ffddd2bfa216ede0a2431d62dd941ed8d7c67b",
-    alt: "img",
-    title: "HdV",
-    description: "Chardonnay Napa Valley 2019, California",
-  },
-  {
     id: 4,
     images:
       "https://img.freepik.com/free-psd/wine-bottle-mockup_1318-2106.jpg?w=740&t=st=1675527906~exp=1675528506~hmac=234317fd09dbefc8798ef7920aa65b53a8a6dc166457407e2234b0b9f3a36f3c",
@@ -32,28 +24,12 @@ export const wineList = [
     description: "Saint-Julien 2019, Bordeaux",
   },
   {
-    id: 5,
-    images:
-      "https://img.freepik.com/free-psd/wine-bottle-mockup_1318-2104.jpg?w=740&t=st=1675527895~exp=1675528495~hmac=97ddd61f0cc80241a5442f00c5ffddd2bfa216ede0a2431d62dd941ed8d7c67b",
-    alt: "img",
-    title: "Antinori",
-    description: "Toscana Tignanello 2019, Toscana",
-  },
-  {
     id: 6,
     images:
       "https://img.freepik.com/free-psd/whiskey-bottle-mockup_1318-2121.jpg?w=740&t=st=1675529047~exp=1675529647~hmac=1a605a7d75b8412d0240aecb2e26797c3369540cc496340cfe961606b6ed5c74",
     alt: "img",
     title: "Robert Mondavi",
     description: "Cabernet Sauvignon Oakville 2019, California",
-  },
-  {
-    id: 7,
-    images:
-      "https://img.freepik.com/free-psd/wine-bottle-mockup_1318-2106.jpg?w=740&t=st=1675527906~exp=1675528506~hmac=234317fd09dbefc8798ef7920aa65b53a8a6dc166457407e2234b0b9f3a36f3c",
-    alt: "img",
-    title: "Château de Beaucastel",
-    description: "Châteauneuf-du-Pape 2019, Francia",
   },
   {
     id: 8,

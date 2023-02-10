@@ -6,7 +6,7 @@
   align-items: center;
   gap: 5px;
   p {
-    margin: 20px;
+    margin: 40px;
     margin-top: 5px;
     display: flex;
     justify-content: center;
@@ -15,14 +15,6 @@
     font-style: italic;
   }
   .images {
-    margin: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    object-fit: cover;
-  }
-  .imgs {
     margin: 50px;
     display: flex;
     flex-wrap: wrap;
