@@ -1,0 +1,36 @@
+.Gallery {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  p {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 14pt;
+    letter-spacing: 2px;
+    font-style: italic;
+  }
+  .images {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    object-fit: cover;
+  }
+  .imgs {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    object-fit: cover;
+  }
+  img {
+    display: flex;
+    object-fit: cover;
+  }
+}

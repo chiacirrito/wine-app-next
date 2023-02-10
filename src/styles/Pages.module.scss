@@ -1,0 +1,52 @@
+.Pages {
+  display: flex;
+  flex-direction: column;
+
+  .users {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 10px;
+  }
+
+  .data {
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;
+  }
+
+  h4 {
+    border: 1px solid whitesmoke;
+    background-color: white;
+    color: black;
+    height: 100px;
+    width: 250px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
