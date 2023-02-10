@@ -23,8 +23,8 @@ const Users = ({ users }) => {
                   <TbMail />
                 </div>
                 <div className={styles.data}>
-                  {user.phone}
-                  {user.email}
+                  <h5>{user.phone}</h5>
+                  <h5>{user.email}</h5>
                 </div>
               </div>
             </h4>

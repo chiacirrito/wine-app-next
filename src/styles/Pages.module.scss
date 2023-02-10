@@ -2,6 +2,15 @@
   display: flex;
   flex-direction: column;
 
+  h2 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+
   .users {
     margin: 50px;
     display: flex;
@@ -16,37 +25,30 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-  }
 
-  .contact {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    margin-bottom: 10px;
-  }
+    .contact {
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      margin-bottom: 10px;
+    }
 
-  .data {
-    display: flex;
-    flex-direction: column;
-  }
-
-  h2 {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    letter-spacing: 2px;
+    .data {
+      display: flex;
+      flex-direction: column;
+      font-size: 12pt;
+    }
   }
 
   h4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     border: 1px solid whitesmoke;
     background-color: white;
     color: black;
     height: 100px;
     width: 250px;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 25px;
   }
 }
