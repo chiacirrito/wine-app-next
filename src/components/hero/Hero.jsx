@@ -12,7 +12,7 @@ const Hero = () => {
           height={250}
           priority={true}
         />
-        <h3>In wine there’s truth.</h3>
+        <h4>In wine there’s truth.</h4>
       </div>
     </div>
   );
